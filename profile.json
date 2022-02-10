@@ -5,6 +5,9 @@
     "lastUsed" : "",
     "lastVersionId" : "1.18.1-forge-39.0.75",
     "name" : "Magnolie SMP Sezon 6",
-    "type" : "custom"
+    "type" : "custom",
+    "resolution" : {
+        "height" : 1080,
+        "width" : 1920
   }
 }
