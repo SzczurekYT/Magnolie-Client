@@ -1,12 +1,11 @@
 from threading import Thread
 from time import sleep
+import os
 
 class LoadAnim(Thread):
-    def __init__(self) -> None:
+
+    def run(self):
         self.anim = True
-
-    def run(self) -> None:
-
         i = 0
         anim = [".", "..", "..."]
         while self.anim:
@@ -14,9 +13,10 @@ class LoadAnim(Thread):
             i += 1
             if i == 3:
                 i = 0
-            sleep(0.1)
+            sleep(0.5)
 
     def stopAnim(self):
         self.anim = False
+
     
 
